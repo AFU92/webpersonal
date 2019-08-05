@@ -1,13 +1,10 @@
-<h1>My personal web</h1>
+{% extends 'core/base.html' %}
 
-<ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about-me">About me</a></li>
-    <li><a href="/portafolio">Portafolio</a></li>
-    <li><a href="/contact">Contact</a></li>
+{% block title %} Cover {% endblock %}
 
-</ul>
-
+{% block content %}
 
 <h2>Cover</h2>
 <p>This is a cover baby</p>
+
+{% endblock %}

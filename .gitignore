@@ -39,3 +39,7 @@ db.sqlite3
 
 ### VS Code ###
 .vscode
+
+### FILES STATICS ###
+
+static/
