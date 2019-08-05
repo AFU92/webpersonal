@@ -2,10 +2,22 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 
+
 def home(request):
 
-    html_response = "<h1>My personal web</h1>"
+    return render(request, "core/home.html")
 
-    for i in range(10):
-        html_response += f"<h2>Cover {i}</h2>"
-    return HttpResponse(html_response)
+
+def about(request):
+
+    return render(request, "core/about-me.html")
+
+
+def portafolio(request):
+
+    return render(request, "core/portafolio.html")
+
+
+def contact(request):
+
+    return render(request, "core/contact.html")
